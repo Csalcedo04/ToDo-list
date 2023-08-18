@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Noto+Serif&display=swap');
+html{
+    background: #B1B2FF;
+    font-family: 'Noto Serif', serif;
+    color: #B1B2FF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 95vh;
+  }
+main {
+    text-align: center;
+    flex: 1 0 auto;
+}
+p {
+    margin: 0;
+    position: relative;
+    top: 0.6rem;
+    
+  }
+a{
+    font-size: 14.2px;
+    text-decoration: none;
+    color:#EEF1FF;
+    margin-left: 0.8rem;
+}
+.shadowbox{
+    width: fit-content;
+    height: fit-content;
+}
+.box {
+    max-width: 37.5rem;
+    min-height: 37rem;
+    margin: 3.125rem auto;
+    background:  #D2DAFF;;
+    border-radius: 1.45rem;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.write_box{
+    width: 28rem;
+    height: 2rem;
+    text-align: center;
+    color: #B1B2FF;
+    font-family: "Noto Serif", serif;
+    font-size: 1rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 3.1rem;
+    margin-top: 3rem;
+
+}
+
+.task{
+    border-radius: 37.5px;
+    background: #EEF1FF;
+    border-style: none;
+}
+
+::placeholder {
+    color: #B1B2FF;
+    font-family: "Noto Serif", serif;
+    font-size: 1rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7; 
+  }
+  
+
+.item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #b1b2ff;
+    border-radius: 10px;
+    gap: 1rem;
+    padding-left: 2.87rem;
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  .default input:checked ~ .content {
+    text-decoration: line-through;
+    text-decoration-color: #a683e3;
+  }
+
+  .default{
+    display: inline-flex;
+    align-items: center; 
+    cursor: pointer;
+    user-select: none;
+    margin-right: 10px; 
+    width: fit-content;
+    height: fit-content;
+  }
+  .default input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    height: 20px;
+    width: 20px;
+    background-color: #d2daff;
+    border: 2px solid #AAC4FF;
+    border-radius: 50%;
+    margin-right: 0.3125rem;
+    margin-left: 0.2rem;
+  }
+  .default input:checked ~ .checkmark {
+    background-color: #B1B2FF;
+    border: 2px solid #AAC4FF;
+    text-decoration: line-through;
+    text-decoration-color: #a683e3;
+  }
+  
+  .default:hover .checkmark {
+    border: 2px solid #8899FF;
+  }
+
+.Date{
+    font-size: 39px;
+    font-weight: 700;
+    padding-top: 2.68rem;
+    margin-left: 3.1rem;
+    margin-bottom: 0;
+
+}
+.noclueaboutbutworks{
+    margin-right: 6.7rem;
+}
+.text_position{
+    margin-right: 12.9rem;
+}
+.text{
+    color: #AAC4FF;
+    font-family: "Lora", serif;
+    font-style: normal;
+}
+.btn{
+    background-color: #d2daff;
+    border-style: none;
+    border-radius: 100%;
+    height: fit-content;
+    width: fit-content;   
+    position: relative;
+    top: 1.3rem;
+}
+.content{
+    margin-top: -1.3rem;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  margin-top: 0;
+}
+  
+  
+/* hay que hacer un media query esclusivo para celulares */
