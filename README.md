@@ -1,5 +1,5 @@
 # ToDo-list APP with JS
-This it's a toDo list made with JS using express framework and in the front it's program with css-no framework.
+This it's a toDo list made with ```JavaScript``` using ```express``` as backend framework and in the frontend it's programming with ```css``` without ```css``` or  ```JavaScript``` framework.  
 ## How it looks
 ### Work To DO
 ![image](https://github.com/Csalcedo04/ToDo-list/assets/98894266/83e7c912-1b1a-4e4b-8ba0-477792a8b773)
