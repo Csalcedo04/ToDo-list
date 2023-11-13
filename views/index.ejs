@@ -21,7 +21,7 @@
     <% for( let i = 0; i < todo.length; i++ ) { %>
         <div class="item">
             <label class="default">
-                <input type="checkbox" class="checkbox">
+                <input type="checkbox" class="checkbox" name="task_checkbox" id= `${i}`>
                 <span class="checkmark"></span>
                 <p class="content"><%= todo[i] %></p>
             </label>
